@@ -31,6 +31,8 @@ plt.show()
 
 # Save the balanced image using skimage.io.imsave
 imsave('path/to/save/balanced_image_grey_world.jpg', balanced_image)
+```
+
 Make sure to replace `'path/to/image.jpg'` and `'path/to/save/balanced_image_grey_world.jpg'` with the appropriate file paths.
 
 ## Weng's Algorithm
@@ -62,8 +64,10 @@ plt.show()
 
 # Save the balanced image using skimage.io.imsave
 imsave('path/to/save/balanced_image_weng.jpg', balanced_image)
+```
 
 Make sure to replace 'path/to/image.jpg' and 'path/to/save/balanced_image_weng.jpg' with the appropriate file paths.
+
 ## Dependencies
 
 The following dependencies are required to run the code:
@@ -76,3 +80,4 @@ You can install the dependencies using pip:
 
 ```bash
 pip install numpy matplotlib scikit-image
+```
